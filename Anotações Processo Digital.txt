@@ -1,0 +1,221 @@
+##aplicativos a ser usado
+Bizagi modeler
+Anydesk
+TeamViewer
+
+logins de acessos:
+22156734860 - Marcelo Batista Silva
+
+Validações:
+	Realizar de antemão testes no ambiente de teste e não no ambiente real, caso precise mexer no ambiente real meçar quaisquer ação realizada pensando na integridade do sistema.
+	Não é possível vincular um arquivo a uma pasta se o arquivo não estiver identificado.
+	Não é possível validar um documento se suas âncoras não estiverem preenchida(âncora tipo obrigatório).
+
+	-Pode ter mais de 1 vínculo por usuário? Sim
+	-Quando e como classificar o uso de perfil de acesso do PD? Definido antecipadamente exemplo de brasilândia foi adicionado para cliente do setor de compras(fazenda) e cliente do setor de licitação
+	-Cliente pode ter perfil de acesso: Administrador? Sim
+	
+
+Anotações Processo Digital:
+	Novo Documento (Criar um documento para seguir padrões e não do zero substituindo um documento com dados inseridos, não podendo ser alterado depois de salvo)
+
+	Para poder utilizar a opção de novo documento precisa criar um modelo de documento onde o arquivo original seja um world onde suas regiões que vai ter seus contéudos alterados estejam com ${nome} para que ocorre a alteração dos campos, No modelo de documento vai ativar a opção de Criar Novo Documento e vai realizar o upload do .docx e em seguida vai em regiões selecionar as palavras que você colocou em ${nome} e depois salvar, adicionar as âncoras e depois só realizar o teste.
+
+Aba do processo digital
+	Caixa de Entrada
+		Recebidos (Quaisquer envio de documento ou processo que esteja com seu usuário vínculado)
+		Solicitados (Em caso de algum processo que dependa que seja vinculado algum documento, é adicionado no modelo de documento já existente)
+		Enviados (Todos os documentos/processo enviado após algum dos possíveis atos)
+		Cancelados (Somente que foi cancelado pelo usuário vai aparecer)
+		Monitorados (Monitorar processos que demanda de um conjunto de documentos com prazo)
+	Pasta Digital (Navegação das pastas criadas para organizar documentos ou processos arquivados)
+	Documentos (Navegação/consulta/download/exportação dos documentos do inicio ao fim, registro dos documentos)
+	Processos (Consultar os processos atuais e opção de monitorar processo para aparecer em "Monitorados")
+	Cadastros
+		Cargo e Função (Cadastro informando do nome do cargo para adicionar ao usuário e poder relacionar no fluxo)
+		Carimbo (Substituído pelo autenticar)
+		Mapeamento de processo (Fluxograma dos processos)
+		Modelo de Documento (Criação/importação ou edição de um modelo de documento/processo/fluxo.)
+		Painel B.I. (Power BI para mostrar gráficos de dados)
+		Parâmetro (Adição de nome, descrição dos detalhes do parâmetro e seu script/valor longo)
+		Pasta Digital (Somente cadastro de pastas, renomeio, excluir, vincular processo a pasta e mover)
+		Perfil (Categorização dos usuários para ter acesso e restrições do que pode fazer no sistema)
+		Processo (Somente a criação e alteração de processos, adição do tipo de acesso, unidade de origem, assunto, objeto e número)
+		Unidade (U.Organizacional informando código{}, unidade, unidade superior, nome e sigla)
+		Usuário (Criação e edição de cadastro de usuários = víncular cargo/função e unidade organizacional, informar perfis de acesso, unidade e adição de certificado digital A1)
+		Usuário Externo (usuários que não fazem parte do cliente, exemplo de uma ATA onde deve ser assinada por várias pessoas e deve ser cadastrado para ter a assinatura ou quaisquer ato que necessita no processo)
+		Vínculo (Usado principalmente para informar no cadastro de usuário, informando unidade e cargo/função)
+		Tipos
+			Acesso (Usado para informar no processos e usuários as restrições e liberações)
+			Âncora (Usado para ser informado dentro do processo)
+			Ato (Usado para informar nos processos)
+			Processo (Usado para informar ao adicionar novos documentos)
+			Unidade (Usado para vincular ao documento e usuário)
+	Painéis B.I. (Exibição de qualquer B.I. criado no cadastro)
+	Impressora (Para funcionar quaisquer impressão do usuário)
+
+Prefeitura:
+Câmara:
+
+Organogramas
+	Prefeitura Municipal de Brasilândia
+		Prefeitura Municipal
+			Gabinete do Prefeito
+			Junta do Serviço Militar
+			Procuradoria Jurídica
+			Controladoria
+			Coordenadora de Defesa Civil
+			Assessoria de Comunicação Social e Imprensa
+			Assessoria de Elaboração de Projetos de Recursos
+			Secretaria Municipal de Administração
+				Núcleo de Recursos Humanos
+				Núcleo de Licitações
+				Núcleo de Medicina e Segurança do Trabalho
+				Núcleo de Tecnologia da Informação
+				Núcleo de Serviços Gerais
+				Núcleo de Patrimônio
+				Núcleo de PROCON
+			Secretaria Municipal de Planejamento e Finanças
+				Núcleo de Contabilidade
+				Núcleo de Tesouraria
+				Núcleo de Administração Tributária
+				Núcleo de Planejamento de Contratações Públicas
+				Núcleo de Convênios		
+				Núcleo de Compras e Almoxarifado
+			Secretaria Municipal de Educação, Cultura, Esporte e Lazer
+				Núcleo de Coordenação da Administração Escolar e Pedagógica
+				Núcleo de Coordenação Pedagógica de Programas Especiais
+				Núcleo de Transporte Escolar
+				Núcleo de Cultura
+				Núcleo de Esporte e Lazer Educacional
+			Secretaria Municipal de Saúde
+				Núcleo de Planejamento e Suporte da Saúde
+				Núcleo de Atenção Básica de Saúde
+				Núcleo de Vigilância Sanitária
+				Núcleo de Vigilância Epidemiolôgica e Imunização		
+				Núcleo de Controle de Endemias
+				Núcleo de Saúde Bucal
+			Secretaria Municiapl de Assistência Social
+				Coordenação de Proteção Social Básica
+				Coordenação de Proteção Social Especial
+				Coordenação Casa Acolhedora
+				Coordenação de Apoio Equipe Sociais
+				Coordenação de Vigilância
+				Coordenação de Habitação
+				Coordenação Instituto de Longa Permanência do Idoso
+				Coordenação Administrativa
+				Coordenação Orçamentária
+			Secretaria Municipal de Obras e Fiscalização
+				Núcleo de Projetos de Habilitação
+				Núcleo de Obras e Fiscalização
+				Núcleo de Manutenção de Pontes e Estradas
+				Núcleo de Manutenção de Máquinas Equip, e Veículos			
+			Secretaria Municipal de Serviços Urbanos
+				Núcleo de Serviços Urbanos
+				Departamento de Trânsito
+			Secretaria Municipal de Desenvolvimento Econômico
+				Núcleo de Fomento ao Agronegócio
+				Núcleo de Fomento a Indústria e Comércio
+				Núcleo de Turismo e Meio Ambiente e Saneamento
+				Núcleo de Fomento ao Empreendedorismo	
+
+	Câmara Municipal de Brasilândia
+		Legislativo Municipal(Vereadores)
+		Comissões
+		Órgãos de Apoio(Administrativo: Mesa Diretora, Procuradoria Jurídica, Secretaria Legislativa)
+
+	Prefeitura Municipal de Bela Vista
+		Prefeitura Municipal
+			Gabinete do Prefeito
+				Controle Interno
+				Coordenadoria Jurídica
+				Assessoria de Imprensa
+			Junta do Serviço Militar
+			Procuradoria Jurídica
+			Controladoria
+			Coordenadora de Defesa Civil
+			Assessoria de Comunicação Social e Imprensa
+			Assessoria de Elaboração de Projetos de Recursos
+			Secretaria Municipal de Administração
+				Núcleo de Recursos Humanos
+				Núcleo de Medicina e Segurança do Trabalho
+				Núcleo de tecnologia da Informação
+				Núcleo de Serviços Gerais
+				Núcleo de Patrimônio
+				Núcleo de PROCON
+			Secretaria Municipal de Planejamento e Finanças
+				Núcleo de Contabilidade
+				Núcleo de Licitações
+				Núcleo de Tesouraria
+				Núcleo de Administração Tributária
+				Núcleo de Planejamento de Contratações Públicas
+				Núcleo de Convênios		
+				Núcleo de Compras e Almoxarifado
+			Secretaria Municipal de Educação, Cultura, Esporte e Lazer
+			Secretaria Municipal de Saúde
+			Secretaria Municiapl de Assistência Social
+				Coordenação de Habitação
+				Coordenação de CRAS e CREAS
+			Secretaria Municipal de Obras e Fiscalização		
+			Secretaria Municipal de Serviços Urbanos
+			Secretaria Municipal de Desenvolvimento Econômico
+
+	Câmara Municipal de Bela Vista
+
+Modelo de documentos feitos:
+
+	Nota de Empenho é um documento utilizado para registrar as despesas orçamentárias realizadas pela administração pública em seu primeiro estágio. Ela é uma promessa de pagamento feia pelo órgão público para você ou sua empresa, e é utilizada quando a insituição pública quer pagar pela inscrição de seus colaboradores em um evento, por exemplo.
+
+	Comunicação Interna (CI) - normalmente quando ocorre solicitação de algum documento ou informação de um setor para outro.
+	Ofício - Funcionando para comunicação formalizada tanto interna como externa é possível solicitar algum serviço e etc com esté processo.
+
+	Pregão - Normalmente ocorre quando algum setor solicita algum tipo de material por exemplo tela de computador onde vai entrar em processo de solicitar, verificar se possuí o dinheiro para a compra, a pesquisa de em média 3 cotações para realizar o inicio de processo de publicação de pregão e realizar as negociações como fornecedor que oferecer o menor valor.
+
+	Inexibilidade - Pode raramente ocorrer após um pregão que não houve acordo com um fornecedor ou se a solicitante de algum material ou bem pesquisou um fornecedor especifico que esteja inelegivél para participar do pregão, com certas exceções.
+
+	Estudo Técnico Preliminares (ETP) - Um documento que integra a fase de planejamento das contratações públicas e tem o objetivo de mostrar a real necessidade da contratação.
+
+	Termo de Referência (TR) - É um documento no qual uma instituição contratante estabelece os termos pelos quais um serviço deve ser prestado ou um produto deve ser entregue por potenciais contratados.
+
+	Secretaria{Compras} - Assessoria Advocatícia
+
+	ATA Sessão
+	Termo de Referência
+	Termo de contrato - Contratos
+	Impactos Ambientais
+	Protocolo TCE
+	ATA de Registro de Preço
+	Minuta Edital de Licitação
+	Autorização
+	Parecer Jurídico - Licitação
+	Encaminhamento Parecer Jurídico - Pregão
+	Ordem de Inicio de Serviço - Inexigibilidade
+	Extrato{Termo de Contrato} - Inexigibilidade
+	Pedido de Empenho - Inexibilidade
+	Ratificação de Dispensa de Licitação - Inexibilidade
+	Autorização de abertura - inexibilidade
+	Nota de Empenho - Pregão Presencial
+	Credenciamento
+	CI - Abertura de Processo Licitatório
+	Proposta de Preço/Pesquisa de Mercado
+	Solicitação de Diária - Secretaria Educação
+	Ofício Secretaria - Compras
+	CI. Secretaria - Compras
+	Parecer Jurídico - Compras
+	Parecer Jurídico - CAC
+	Parecer Jurídico - Procuradoria
+	Ordem de Pagmento 
+	Protocolo de Abertura do Processo - Ata de Registro de Preço
+	Protocolo de Abertura do Processo da Folha de Pagamento Consignados
+	Protocolo Requerimento RH
+	Protocolo de Diária
+	Protocolo Folha de Pagamento
+	Protocolo Consignados
+	Quadro de cotação
+	Nota de Empenho
+	Autógrafo de Lei
+	Documento Prefeitura
+	Documentos Diversos
+	Laudo de Pagamento
+	Nota Fiscal Padrão
+	Solicitação de Materiais / Serviços

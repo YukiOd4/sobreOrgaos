@@ -1,0 +1,24 @@
+---Download do driver da impressora Win 7
+
+Realiza Donwload do programa para instalação e realiza até o fim.
+
+Quando houver erro na mesma tela sem fechar o programa, clica duas vezes sobre seu perfil e copie o link que aparecer
+
+Vá em Impressoras e realize a adição de impressora manualmente
+
+Clique em selecionar uma impressora compartilhada pelo nome e cole o link que gravou https://qa.processo.digital/printers/eXJHNDd3SXFyY1RkMVhPeUZQRnU2QT09
+(OBS: Se não der certo com o link pinga o servidor no cmd, exemplo ping qa.processo.digital e substitua pelo IP e apaga o "S" de http, exemplo: http://192.123.109.10/printers/eXJHNDd3SXFyY1RkMVhPeUZQRnU2QT09)
+
+Vai abrir uma tela informando a instalação do modelo, selecione "Com Disco" e procura no diretorio %temp%, ordenar por data de modificação e pegar o mais recente onde o nome normalmente é "prdrv..."
+
+Após selecionar a pasta, informe a versão do driver a ser instalado (v7.0.1)
+
+---Renomear nome da impressora Win 7
+
+Primeiro acessa o regedit e navegue: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers
+Ache o nome da impressora dentro de Printers e modifica um dos registro com se chama "Name" e modifique para o possível nome que vai colocar.
+Reinicia a máquina após alteração.
+navegue novamente no regedit
+Clique com botão direito ainda no nome da impressora que deseja mudar e escolha para renomear para o nome desejado, o mesmo que na alteração do registro "Name" e tecla enter para salvar.
+Reinicia a máquina.
+Feito isso realizara a alteração do nome da impressora.
